@@ -17,15 +17,15 @@ const Projects = () => {
 
   useEffect(() => {
     const query = '*[_type == "projects"]';
-    const brandsQuery = '*[_type == "brands"]';
+    //const brandsQuery = '*[_type == "brands"]';
 
     client.fetch(query).then((data) => {
       setProjects(data);
     });
 
-    client.fetch(brandsQuery).then((data) => {
-      setBrands(data);
-    });
+    // client.fetch(brandsQuery).then((data) => {
+    //   setBrands(data);
+    // });
   }, []);
 
   return (
@@ -56,7 +56,7 @@ const Projects = () => {
         </>
       )}
 
-      <div className="app__projects-brands app__flex">
+      {/* <div className="app__projects-brands app__flex">
         {brands.map((brand) => (
           <motion.div
             whileInView={{ opacity: [0, 1] }}
@@ -66,7 +66,7 @@ const Projects = () => {
             <img src={urlFor(brand.imgUrl)} alt={brand.name} />
           </motion.div>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
