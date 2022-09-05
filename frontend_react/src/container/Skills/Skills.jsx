@@ -56,9 +56,11 @@ const Skills = () => {
               <div className="app__skills-exp-year">
                 <p className="bold-text">{experience.year}</p>
               </div>
+
               <div className="app__experience-name">
               <p className="bold-text">{experience.name}</p>
               </div>
+              
               <div className="app__skills-experience-topic">
               <p className="bold-text">{experience.topic}</p>
               <p className="p-text">{experience.desc}</p>

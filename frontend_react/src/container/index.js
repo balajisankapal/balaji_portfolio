@@ -5,6 +5,8 @@
 // export { default as Testimonial } from './Testimonial/Testimonial';
 // export { default as Work } from './Work/Work';
 
+
+//Work -> Changes to be done
 import About from './About/About';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -18,5 +20,5 @@ export {
   Header,
   Skills,
   Projects,
-  Work,
+  Work
 };
