@@ -12,7 +12,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Skills from './Skills/Skills';
 import Projects from './Projects/Projects';
-import Work from './Work/Work';
+//import Work from './Work/Work';
 
 export {
   About,
@@ -20,5 +20,5 @@ export {
   Header,
   Skills,
   Projects,
-  Work
+  //Work
 };
